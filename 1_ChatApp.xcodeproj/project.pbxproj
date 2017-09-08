@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87225E4B1F6243E4007F0253 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87225E4A1F6243E4007F0253 /* Auth.storyboard */; };
 		8747AB491F623E020037E830 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8747AB481F623E020037E830 /* AppDelegate.swift */; };
 		8747AB4B1F623E020037E830 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8747AB4A1F623E020037E830 /* ViewController.swift */; };
 		8747AB4E1F623E020037E830 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8747AB4C1F623E020037E830 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		87225E4A1F6243E4007F0253 /* Auth.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
 		8747AB451F623E020037E830 /* 1_ChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1_ChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8747AB481F623E020037E830 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8747AB4A1F623E020037E830 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				8747AB481F623E020037E830 /* AppDelegate.swift */,
 				8747AB4A1F623E020037E830 /* ViewController.swift */,
 				8747AB4C1F623E020037E830 /* Main.storyboard */,
+				87225E4A1F6243E4007F0253 /* Auth.storyboard */,
 				8747AB4F1F623E020037E830 /* Assets.xcassets */,
 				8747AB511F623E020037E830 /* LaunchScreen.storyboard */,
 				8747AB541F623E020037E830 /* Info.plist */,
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87225E4B1F6243E4007F0253 /* Auth.storyboard in Resources */,
 				8747AB531F623E020037E830 /* LaunchScreen.storyboard in Resources */,
 				8747AB501F623E020037E830 /* Assets.xcassets in Resources */,
 				8747AB4E1F623E020037E830 /* Main.storyboard in Resources */,
@@ -304,6 +308,7 @@
 				8747AB591F623E020037E830 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
