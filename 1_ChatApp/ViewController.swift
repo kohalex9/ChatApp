@@ -12,8 +12,16 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         
         loadChat()
+        // Do any additional setup after loading the view, typically from a nib.
+        loadChatRoomDetails()
+    }
+    
+    func loadChatRoomDetails() {
+        print("Load user image")
+        print("Hi")
     }
     
     func loadChat() {
